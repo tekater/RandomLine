@@ -12,7 +12,6 @@ public class Main {
         Random random = new Random(seed);
 
         for (int i = 0; i < size; i++) {
-            System.out.println();
             for (int y = 0; y < size; y++) {
                 if (random.nextBoolean() == true) {
                     System.out.print("O");
@@ -20,6 +19,7 @@ public class Main {
                     System.out.print(" ");
                 }
             }
+            System.out.println();
         }
     }
 }
